@@ -29,3 +29,13 @@ https://hub.docker.com/r/rastasheep/ubuntu-sshd
 
 ## 简化
 任意起10个dokcer ,使用root/root登录控制
+
+
+###  启动dokcer  ubuntu-sshd
+
+```
+for i in `seq 0 9`;do docker run -itd -p 809$i:22 rastasheep/ubuntu-sshd:18.04  ;done
+
+```
+
+### ansible控制
