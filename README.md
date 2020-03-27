@@ -26,3 +26,6 @@ https://hub.docker.com/r/rastasheep/ubuntu-sshd
 ```
 起动或者暂停10个dokcer,然后用ansible控制这些docker
 ```
+
+## 简化
+任意起10个dokcer ,使用root/root登录控制
