@@ -20,4 +20,9 @@ https://hub.docker.com/r/rastasheep/ubuntu-sshd
 
 
 
-## a
+
+# Lab
+
+```
+起动或者暂停10个dokcer,然后用ansible控制这些docker
+```
