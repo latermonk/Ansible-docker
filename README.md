@@ -3,7 +3,7 @@
 ## Ubuntu with sshd 
 
 ```
-docker run -d -P --name test_sshd rastasheep/ubuntu-sshd:14.04
+docker run -d -P --name test_sshd rastasheep/ubuntu-sshd:18.04
 
 ```
 **check port of this docker**
