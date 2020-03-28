@@ -21,13 +21,8 @@ https://hub.docker.com/r/rastasheep/ubuntu-sshd
 
 
 
-# Lab
+# Lab1 启动10个docker并控制
 
-```
-起动或者暂停10个dokcer,然后用ansible控制这些docker
-```
-
-## 简化
 任意起10个dokcer ,使用root/root登录控制
 
 ```
@@ -43,24 +38,4 @@ ansible all -m shell -a "apt install nload -y"
 ```
 
 
-###  启动dokcer  ubuntu-sshd
 
-```
-for i in `seq 0 9`;do docker run -itd -p 809$i:22 rastasheep/ubuntu-sshd:18.04;done
-
-```
-
-**安装 Python**
-
-```
- apt install python-minimal
- 
- ```
- 
- 
- **ibackchina2018/ubuntu-sshd:1804**
- 
- 
- 
- 
-### ansible控制
