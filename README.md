@@ -26,7 +26,7 @@ https://hub.docker.com/r/rastasheep/ubuntu-sshd
 任意起10个dokcer ,使用root/root登录控制
 
 ```
-for i in `seq 0 9`;do docker run -itd -p 809$i:22 ibackchina2018/ubuntu-sshd:1804  ;done
+for i in `seq 0 9`;do docker run -itd -p 809$i:22 ibackchina2018/ubuntu-sshd:1804;done
 
 ```
 
