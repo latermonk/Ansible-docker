@@ -1,0 +1,13 @@
+server1  ansible_ssh_host=127.0.0.1  ansible_ssh_port=8099 ansible_ssh_user=root ansible_ssh_pass=root
+server2  ansible_ssh_host=127.0.0.1  ansible_ssh_port=8098 ansible_ssh_user=root ansible_ssh_pass=root
+server3  ansible_ssh_host=127.0.0.1  ansible_ssh_port=8097 ansible_ssh_user=root ansible_ssh_pass=root
+server4  ansible_ssh_host=127.0.0.1  ansible_ssh_port=8096 ansible_ssh_user=root ansible_ssh_pass=root
+server5  ansible_ssh_host=127.0.0.1  ansible_ssh_port=8095 ansible_ssh_user=root ansible_ssh_pass=root
+server6  ansible_ssh_host=127.0.0.1  ansible_ssh_port=8094 ansible_ssh_user=root ansible_ssh_pass=root
+server7  ansible_ssh_host=127.0.0.1  ansible_ssh_port=8093 ansible_ssh_user=root ansible_ssh_pass=root
+server8  ansible_ssh_host=127.0.0.1  ansible_ssh_port=8092 ansible_ssh_user=root ansible_ssh_pass=root
+server9  ansible_ssh_host=127.0.0.1  ansible_ssh_port=8091 ansible_ssh_user=root ansible_ssh_pass=root
+server0  ansible_ssh_host=127.0.0.1  ansible_ssh_port=8090 ansible_ssh_user=root ansible_ssh_pass=root
+
+#[local]
+#server1
