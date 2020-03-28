@@ -41,7 +41,7 @@ https://hub.docker.com/r/rastasheep/ubuntu-sshd
 **ansible test**
 
 ```
-ansible all -m shell -a "apt install nload -y" 
+ansible all -m shell -a "apt update && apt install nload -y" 
 
 ```
 
