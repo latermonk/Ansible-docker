@@ -38,4 +38,12 @@ for i in `seq 0 9`;do docker run -itd -p 809$i:22 rastasheep/ubuntu-sshd:18.04  
 
 ```
 
+**安装 Python**
+
+```
+ apt install python-minimal
+ 
+ ```
+ 
+ 
 ### ansible控制
