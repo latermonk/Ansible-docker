@@ -30,6 +30,14 @@ for i in `seq 0 9`;do docker run -itd -p 809$i:22 ibackchina2018/ubuntu-sshd:180
 
 ```
 
+**需要下次启动docker的时候自启动的话，加 --restart always **
+```
+for i in `seq 0 9`;do docker run --restart always -itd -p 809$i:22 ibackchina2018/ubuntu-sshd:1804;done
+
+```
+
+
+
 **Docker mirror:**
 https://hub.docker.com/repository/docker/ibackchina2018/ubuntu-sshd
 
