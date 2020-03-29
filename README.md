@@ -54,4 +54,9 @@ ansible all -m shell -a "apt update && apt install nload -y"
 ```
 
 
+#  LAB2 install nginx on ubuntu1804
+```
+ansible all -m shell -a "apt update && apt install nginx  -y && nginx "
+
+```
 
