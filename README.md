@@ -54,9 +54,15 @@ ansible all -m shell -a "apt update && apt install nload -y"
 ```
 
 
-#  LAB2 install nginx on ubuntu1804
+#  Lab2 install nginx on ubuntu1804
 ```
 ansible all -m shell -a "apt update && apt install nginx  -y && nginx "
 
 ```
+
+
+
+# Lab3  rundeck 
+https://docs.rundeck.com/docs/manual/
+
 
