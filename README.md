@@ -54,7 +54,7 @@ ansible all -m shell -a "apt update && apt install nload -y"
 ```
 
 
-#  Lab2 install nginx on ubuntu1804
+#  Lab2 install nginx on ubuntu1804 with command line
 
 ```
 for i in `seq 0 9`;do docker run -itd -p 809$i:22 -p 5000$i:80  ibackchina2018/ubuntu-sshd:1804;done
@@ -66,8 +66,18 @@ ansible all -m shell -a "apt update && apt install nginx  -y && nginx "
 ```
 
 
+#  Lab3 install nginx on ubuntu1804 with playbook
 
-# Lab3  rundeck 
+```
+for i in `seq 0 9`;do docker run -itd -p 809$i:22 -p 5000$i:80  ibackchina2018/ubuntu-sshd:1804;done
+```
+
+
+
+------------------
+
+
+# ansible UI   rundeck 
 https://docs.rundeck.com/docs/manual/
 
 
