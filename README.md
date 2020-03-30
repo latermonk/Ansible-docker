@@ -96,14 +96,19 @@ ansible-playbook play.yaml
   user: root
   
   tasks:
+  - name:  update apt
+    apt:
+      name: apt
+      state: latest
   - name:  install nginx 
-    yum: 
+    apt: 
       name : nginx 
       state : latest
   - name:  start nginx
     service:
       name: nginx
       state: started
+
 
 ```
 
