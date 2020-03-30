@@ -72,6 +72,14 @@ ansible all -m shell -a "apt update && apt install nginx  -y && nginx "
 for i in `seq 0 9`;do docker run -itd -p 809$i:22 -p 5000$i:80  ibackchina2018/ubuntu-sshd:1804;done
 ```
 
+
+```
+ansible-playbook play.yaml
+
+```
+
+
+
 **playbook.yaml**
 
 ```
