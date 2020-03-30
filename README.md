@@ -51,7 +51,7 @@ for i in `seq 0 9`;do docker run --restart always -itd -p 809$i:22 ibackchina201
 https://hub.docker.com/repository/docker/ibackchina2018/ubuntu-sshd
 
 **Add python on the rastasheep/ubuntu-sshd docker mirror**
-https://hub.docker.com/r/rastasheep/ubuntu-sshd 
+[https://hub.docker.com/r/rastasheep/ubuntu-sshd ]
 
 
 
