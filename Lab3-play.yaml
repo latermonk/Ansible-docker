@@ -1,0 +1,16 @@
+- hosts: all
+  user: root
+  
+  tasks:
+  - name:  update apt
+    apt:
+      name: apt
+      state: latest
+  - name:  install nginx 
+    apt: 
+      name : nginx 
+      state : latest
+  - name:  start nginx
+    service:
+      name: nginx
+      state: started
