@@ -1,5 +1,19 @@
 # Ansible dokcer
 
+
+#  **UPDATE**
+
+## new docker image with Python3 inside
+
+https://hub.docker.com/repository/docker/ibackchina2018/ubuntu-sshd-python3
+
+```
+docker pull ibackchina2018/ubuntu-sshd-python3:1804
+```
+
+
+
+
 #  Doc for ansible 
 https://docs.ansible.com/
 
