@@ -1,16 +1,6 @@
 # Ansible dokcer
 
 
-#  **UPDATE**
-
-## new docker image with Python3 inside
-
-https://hub.docker.com/repository/docker/ibackchina2018/ubuntu-sshd-python3
-
-```
-docker pull ibackchina2018/ubuntu-sshd-python3:1804
-```
-
 
 
 
@@ -40,6 +30,32 @@ docker port test_sshd 22
 ```
 
 https://hub.docker.com/r/rastasheep/ubuntu-sshd   
+
+
+#  **UPDATE 1**
+
+## new docker image with Python3 inside
+
+https://hub.docker.com/repository/docker/ibackchina2018/ubuntu-sshd
+
+```
+docker pull ibackchina2018/ubuntu-sshd:1804
+```
+
+
+
+
+#  **UPDATE 2**
+
+## new docker image with Python3 inside
+
+https://hub.docker.com/repository/docker/ibackchina2018/ubuntu-sshd-python3
+
+```
+docker pull ibackchina2018/ubuntu-sshd-python3:1804
+```
+
+
 
 
 
