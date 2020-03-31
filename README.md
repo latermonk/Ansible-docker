@@ -15,6 +15,8 @@ https://docs.ansible.com/
 
 # Lab0  Ubuntu with sshd 
 
+**Original docker image**
+
 ```
 docker run -d -P --name test_sshd rastasheep/ubuntu-sshd:18.04
 
@@ -34,7 +36,7 @@ https://hub.docker.com/r/rastasheep/ubuntu-sshd
 
 #  **UPDATE 1**
 
-## new docker image with Python3 inside
+## new docker image with Python2 inside
 
 https://hub.docker.com/repository/docker/ibackchina2018/ubuntu-sshd
 
