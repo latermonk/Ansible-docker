@@ -112,6 +112,14 @@ ansible-playbook play.yaml
 
 ```
 
+Lab4 Role
+
+```
+ mkdir -pv ansible_playbooks/roles/{websrvs,dbsrvs}/{tasks,files,templates,meta,handlers,vars}
+ 
+ ```
+ 
+ 
 
 
 ------------------
