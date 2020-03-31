@@ -74,6 +74,17 @@ ansible all -m shell -a "apt update && apt install nginx  -y && nginx "
 
 ```
 
+**或者**
+
+
+```
+ansible all  -m apt -a "name=nginx update_cache=yes" 
+
+
+ansible all -m service -a "name=nginx state=restarted"
+
+```
+
 
 #  Lab3 install nginx on ubuntu1804 with playbook
 
