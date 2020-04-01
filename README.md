@@ -161,6 +161,14 @@ ansible-playbook play.yaml
 
 **code in the Lab4 dirtecory ** 
 
+** first boot 10 docker machine ** 
+
+```
+
+for i in `seq 0 9`;do docker run -itd -p 809$i:22 -p 5000$i:80   ibackchina2018/ubuntu-sshd-python3:1804;done
+
+```
+
 
 ```
 ansible-playbook  web-notls.yml/web-tls.yml
