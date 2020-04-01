@@ -169,6 +169,12 @@ ansible-playbook play.yaml
 
 ------------------
 
+# ansiblebook
+https://github.com/ansiblebook/ansiblebook/tree/1st-edition
+
+
+https://github.com/ansiblebook/ansiblebook/tree/2nd-edition
+
 
 # ansible UI   rundeck 
 https://docs.rundeck.com/docs/manual/
