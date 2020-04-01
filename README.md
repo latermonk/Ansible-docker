@@ -159,7 +159,13 @@ ansible-playbook play.yaml
 
 # Lab4 A simple website demo
 
-**code** 
+**code in the Lab4 dirtecory ** 
+
+
+```
+ansible-playbook  web-notls.yml/web-tls.yml
+
+```
 
 
  
