@@ -165,12 +165,15 @@ ansible-playbook play.yaml
 
 ```
 
-for i in `seq 0 9`;do docker run -itd -p 809$i:22 -p 5000$i:80   ibackchina2018/ubuntu-sshd-python3:1804;done
+for i in `seq 0 9`;do docker run -itd -p 809$i:22 -p 5000$i:80  -p 4000$i:443  ibackchina2018/ubuntu-sshd-python3:1804;done
 
 ```
 
 
 ```
+
+ansible-playbook  web-notls.yml/web-notls.yml
+
 ansible-playbook  web-notls.yml/web-tls.yml
 
 ```
