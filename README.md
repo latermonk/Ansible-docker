@@ -1,6 +1,10 @@
 # Ansible dokcer
 
 
+```
+docker run -d -P --name test_sshd    ibackchina2018/ubuntu-sshd:1804  
+
+```
 
 
 
