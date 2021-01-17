@@ -12,6 +12,16 @@ docker run -d -P --name test_sshd    ibackchina2018/ubuntu-sshd-python38:1804
 
 ```
 
+#  Ubuntu 20.04 Desktop Docker with vnc
+
+```
+docker run -d  -p 6080:80 -p 5900:5900 -v /dev/shm:/dev/shm dorowu/ubuntu-desktop-lxde-vnc
+
+```
+
+
+
+
 
 
 #  Doc for ansible 
