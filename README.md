@@ -20,6 +20,13 @@ docker run -d  -p 6080:80 -p 5900:5900 -v /dev/shm:/dev/shm dorowu/ubuntu-deskto
 ```
 
 
+一次开10个：
+
+```
+for i in `seq 0 9`;do docker run -itd -p 608$i:80 -v /dev/shm:/dev/shm  dorowu/ubuntu-desktop-lxde-vnc;done
+
+
+```
 
 
 
