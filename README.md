@@ -28,6 +28,8 @@ for i in `seq 0 9`;do docker run -itd -p 608$i:80 -v /dev/shm:/dev/shm  dorowu/u
 
 ```
 
+参考：    https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc/      
+
 
 
 
