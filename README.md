@@ -92,6 +92,14 @@ docker pull ibackchina2018/ubuntu-sshd-python3:1804
 -------
 
 
+**START**
+
+```
+
+git clone  https://github.com/latermonk/Ansible.git
+
+```
+
 
 # Lab1 启动10个docker并控制
 
