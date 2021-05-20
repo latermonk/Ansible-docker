@@ -50,3 +50,15 @@ nohup ./semaphore -config /root/abc/config.json &
 #   访问 3000端口即可
 
 
+---
+
+
+![01_Playbook-repo](_image/01_Playbook-repo.png)
+![02_key-store](_image/02_key-store.png)
+![03_env-store](_image/03_env-store.png)
+![04_Inventory](_image/04_Inventory.png)
+![05-task-template01](_image/05-task-template01.png)
+![05-task-template02](_image/05-task-template02.png)
+![06_work-log](_image/06_work-log.png)
+
+
