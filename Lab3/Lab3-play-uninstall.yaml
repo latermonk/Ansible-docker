@@ -1,0 +1,17 @@
+- hosts: all
+  user: root
+  
+  tasks:
+  - name:  update apt
+    apt:
+      name: apt
+      state: latest
+  - name:  stop nginx
+    service:
+      name: nginx
+      state: stopped
+  - name:  remove  nginx
+    apt:
+       name : nginx
+       state : absent
+
