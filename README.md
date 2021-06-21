@@ -120,6 +120,11 @@ for i in `seq 0 9`;do docker run --restart always -itd -p 809$i:22 ibackchina201
 ##   测试虚拟主机的可用性
 ```
 ansible  all -m ping
+
+
+* 更新
+ansible all -m shell -a "apt update"  
+
 ```
 
 
