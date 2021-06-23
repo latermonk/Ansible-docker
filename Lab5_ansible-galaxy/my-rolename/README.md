@@ -1,3 +1,11 @@
+#   ansible role
+
+```
+ansible-galaxy init my-rolename
+```
+
+
+
 Role Name
 =========
 
