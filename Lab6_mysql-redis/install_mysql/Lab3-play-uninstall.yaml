@@ -1,0 +1,17 @@
+- hosts: all
+  user: root
+  
+  tasks:
+  - name:  update apt
+    apt:
+      name: apt
+      state: latest
+  - name:  stop mysql
+    service:
+      name: mysql
+      state: stopped
+  - name:  remove  mysql
+    apt:
+       name : mysql-server
+       state : absent
+

@@ -1,0 +1,17 @@
+- hosts: all
+  user: root
+  
+  tasks:
+  - name:  update apt
+    apt:
+      name: apt
+      state: latest
+  - name:  stop redis
+    service:
+      name: redis
+      state: stopped
+  - name:  remove  redis
+    apt:
+       name : redis
+       state : absent
+

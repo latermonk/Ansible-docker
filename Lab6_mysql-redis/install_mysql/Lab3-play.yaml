@@ -1,0 +1,16 @@
+- hosts: all
+  user: root
+  
+  tasks:
+  - name:  update apt
+    apt:
+      name: apt
+      state: latest
+  - name:  install mysql 
+    apt: 
+      name : mysql-server 
+      state : latest
+  - name:  start mysql
+    service:
+      name: mysql
+      state: started
