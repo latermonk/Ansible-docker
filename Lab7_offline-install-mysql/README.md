@@ -3,7 +3,7 @@
 
 
 ```
-ansible-playbook   mysql-server.tar 
+ansible-playbook   ubuntu1804-install-mysql.yaml
 
 
 ```
