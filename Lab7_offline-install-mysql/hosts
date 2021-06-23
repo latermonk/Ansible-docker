@@ -1,0 +1,4 @@
+server0  ansible_ssh_host=10.252.37.64  ansible_ssh_port=22 ansible_ssh_user=root ansible_ssh_pass=123456
+
+#[local]
+#server1
