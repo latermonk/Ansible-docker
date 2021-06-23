@@ -39,4 +39,5 @@ https://docs.ansible.com/ansible/latest/collections/ansible/builtin/shell_module
 
 --- 
 
-https://severalnines.com/database-blog/introduction-mysql-deployment-using-ansible-role
+https://severalnines.com/database-blog/introduction-mysql-deployment-using-ansible-role    
+https://chaosmail.github.io/programming/2015/03/04/install-deb-packages-in-ansible/
