@@ -25,3 +25,18 @@ https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.
 
 ##  UNRAR
 https://docs.ansible.com/ansible/latest/collections/ansible/builtin/unarchive_module.html
+
+
+##  FILE
+https://docs.ansible.com/ansible/latest/collections/ansible/builtin/file_module.html
+
+##  SHELL
+https://docs.ansible.com/ansible/latest/collections/ansible/builtin/shell_module.html 
+
+## etc
+
+
+
+--- 
+
+https://severalnines.com/database-blog/introduction-mysql-deployment-using-ansible-role
