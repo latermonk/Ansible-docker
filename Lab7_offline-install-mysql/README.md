@@ -3,7 +3,7 @@
 
 
 ```
-ansible-playbook   a.yaml
+ansible-playbook   mysql-server.tar 
 
 
 ```
