@@ -1,0 +1,27 @@
+- hosts: all
+  user: root
+  
+  tasks:
+  - name:  copy file to /tmp
+    ansible.builtin.copy:
+      src: /root/aito/ansible_labs/offline-install_mysql/mysql-server.tar
+      dest: /root/abc/aaa/mysql-server.tar
+  - name: chdir
+    ansible.builtin.shell:
+      cmd:   ls   /root/abc/aaa/
+      chdir:   /root/abc/aaa/
+  - name:  chmod 
+    ansible.builtin.file:
+      path: /root/abc/aaa/mysql-server.tar
+      mode: '0777'
+  - name:  tar -xf mysql-server.tar
+    ansible.builtin.unarchive:
+      src:  /root/abc/aaa/mysql-server.tar 
+      dest: /root/abc/aaa/
+      remote_src: yes
+  - name: Install my_package
+    ansible.builtin.shell:
+      chdir:   /root/abc/aaa/
+      cmd: dpkg -i *.deb
+      
+
