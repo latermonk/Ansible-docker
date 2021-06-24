@@ -26,3 +26,14 @@ apt-get install --print-uris mysql-server
 apt-get install mysql-server
 ```
 
+
+
+
+```
+export DEBIAN_FRONTEND=noninteractive && export DEBIAN_PRIORITY=critical && sudo /usr/bin/dpkg -i ./files/*
+
+
+
+```
+
+
