@@ -1,28 +1,19 @@
-#   offline-install_mysql
+#   offline-install_redis
 
 
 
 ```
-ansible-playbook   ubuntu1804-install-mysql.yaml
+mv redis.tar   mysql-server.tar 
+```
+
+
+
+```
+ansible-playbook   ubuntu1804-install-redis.yaml
 
 
 ```
 
 
 
-##  Download software needed
-```
-apt-get install --print-uris mysql-server
-```
-
-**put to dir **
-```
-/var/cache/apt/archives
-```
-
-
-**install mysql**
-```
-apt-get install mysql-server
-```
 
