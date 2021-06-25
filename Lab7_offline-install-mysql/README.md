@@ -40,10 +40,12 @@ export DEBIAN_FRONTEND=noninteractive && export DEBIAN_PRIORITY=critical && sudo
 
 #  INSTALL
 ```
-libaio1_0.3.110-5ubuntu0.1_amd64.deb
-libssl1.1_1.1.1-1ubuntu2.1~18.04.9_amd64.deb   需要手动
-mysql-common_5.8+1.0.4_all.deb
+
+dpkg -i libaio1_0.3.110-5ubuntu0.1_amd64.deb
+dpkg -i libssl1.1_1.1.1-1ubuntu2.1~18.04.9_amd64.deb   需要手动
+dpkg -i mysql-common_5.8+1.0.4_all.deb
 dpkg -i *.deb   
+
 
 ```
 
