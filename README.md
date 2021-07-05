@@ -245,3 +245,11 @@ https://github.com/ansiblebook/ansiblebook/tree/2nd-edition
 https://docs.rundeck.com/docs/manual/
 
 
+
+
+
+----
+#  Ansible自动化部署详细教程
+https://www.cnblogs.com/heian99/p/12231033.html   
+
+
